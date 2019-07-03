@@ -7,6 +7,7 @@ const initialState = {};
 
 const middleware = [thunk];
 
+// loads reducers.js
 const store = createStore(
   rootReducer,
   initialState,
